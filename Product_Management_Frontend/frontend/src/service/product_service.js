@@ -20,7 +20,7 @@ class ProductService{
     }
 
     updateProduct(product){
-        return axios.put(API_URL+"updateProduct/"+product.id,product);
+        return axios.put(API_URL+"/updateProduct/"+product.id,product);
     }
 }
 
